@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Pedido</title>
+    <link rel="stylesheet" href="fazer_pedido.css">
+</head>
+<body>
+    
+    <div class="conteudo">
+       <div class="img">
+        <img src="medio.jpg" alt="">
+       </div> 
+       <div class="perguntas">
+        <div class="nome_acai">
+        <p class="nome_1" id="nome_tamanho">Açai</p>
+        </div>
+        <br>
+        <p>Acrescentar ingredientes</p>
+        <h6>Se você quiser um ingrediente clique no simbolo de 'mais'</h6>
+        <br>
+       <br>
+       <span>
+        <p class="texto_acrescentar">Leite Condensado</p>
+        <p class="txt" id="txt1"></p>
+        <img src="leite.png" alt="" class="img_acrescentar">
+        <button class="botao_menos" onclick="mn1()"></button>
+        <button class="botao_adicionar" onclick="add1()"></button>
+       </span>
+       <br>
+       <br>
+       <br>
+       <br>
+       <span>
+        <p class="texto_acrescentar">Leite Ninho</p>
+        <p class="txt" id="txt2"></p>
+        <img src="ninho.png" alt="" class="img_acrescentar">
+        <button class="botao_menos" onclick="mn2()"></button>
+        <button class="botao_adicionar" onclick="add2()"></button>
+       </span>
+       <br>
+       <br>
+       <br>
+       <br>
+       <span>
+        <p class="texto_acrescentar">Nutella</p>
+        <p class="txt" id="txt3"></p>
+        <img src="nutela.png" alt="" class="img_acrescentar">
+        <button class="botao_menos" onclick="mn3()"></button>
+        <button class="botao_adicionar" onclick="add3()"></button>
+       </span>
+       <br>
+       <br>
+       <br>
+       <br>
+       <span>
+        <p class="texto_acrescentar">Granola</p>
+        <p class="txt" id="txt4"></p>
+        <img src="granola.png" alt="" class="img_acrescentar">
+        <button class="botao_menos" onclick="mn4()"></button>
+        <button class="botao_adicionar" onclick="add4()"></button>
+       </span>
+       <br>
+       <br>
+       <br>
+       <br>
+       <span>
+        <p class="texto_acrescentar">Banana</p>
+        <p class="txt" id="txt5"></p>
+        <img src="banana.webp" alt="" class="img_acrescentar">
+        <button class="botao_menos" onclick="mn5()"></button>
+        <button class="botao_adicionar" onclick="add5()"></button>
+       </span>
+       <br>
+       <br>
+       <br>
+       <br>
+       <span>
+        <p class="texto_acrescentar">Morango</p>
+        <p class="txt" id="txt6"></p>
+        <img src="morango.png" alt="" class="img_acrescentar">
+        <button class="botao_menos" onclick="mn6()"></button>
+        <button class="botao_adicionar" onclick="add6()"></button>
+       </span>
+       <br>
+       <br>
+       <br>
+       <div class="finalizar_pedido">
+        <div class="quantidade">
+            <button class="botao_qtd" id="menos" onclick="menos()"></button>
+            <h1 id="qtd_acai">1</h1>
+            <button class="botao_qtd" id="adicionar" onclick="mais()"></button>
+        </div>
+        <button class="btn_final" onclick="finalizar()">Continuar</button>
+       </div>
+    </div>
+    
+    </div>
+    
+
+    <script src="fazer_pedido.js"></script>
+</body>
+</html>

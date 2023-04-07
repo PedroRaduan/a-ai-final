@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Login From</title>
+    <link rel="stylesheet" href="final.css">
+   
+  </head>
+  <body>
+    <div class="login_form_container">
+      <div class="login_form">
+        <h2>Confirmar</h2>
+        <div class="input_group">
+          <i class="fa fa-user"></i>
+          <input
+            type="text"
+            placeholder="Dia do mês"
+            class="input_text"
+            autocomplete="off"
+            id="dia"
+          />
+        </div>
+        <p style="color: red;" id="errado"></p>
+        <div class="input_group">
+          <i class="fa fa-unlock-alt"></i>
+          <input
+            type="text"
+            placeholder="Local da casa"
+            class="input_text"
+            autocomplete="off"
+            id="local"
+          />
+          
+        </div>
+        <p style="color: red; margin-top: 5px; display: none;" id="texto">Escreva em todos os campos</p>
+        <div class="button_group" id="login_button" onclick="final()">
+          <a>Finalizar pedido</a>
+        </div>
+        <div class="fotter">
+          <a>Checar pedido</a>
+          <a id="">Falar sobre</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="final.js"></script>
+  </body>
+</html>

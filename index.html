@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="card">
+            <h1>Entre e faça seu pedido😋</h1>
+            <div class="card-body">
+
+                <form>
+                    <div class="fields">
+                        <label for="pri">Primeiro nome</label>
+                        <input id="pri" type="text" placeholder="Primeiro Nome" name="pri">
+                    </div>
+                  
+                    <div class="fields">
+                        <label for="se">Ultimo nome</label>
+                        <input id="sec" type="text" placeholder="Sobrenome" name="se">
+                    </div>
+                    <p style="color: red;" id="errado"></p>
+                    <button onclick="enviar()" type="button">Confirmar</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="img">
+            <img src="tigela.png" alt="Imagem de açai">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
